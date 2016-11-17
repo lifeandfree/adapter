@@ -1,5 +1,7 @@
 package ru.urfu.adapter;
 
-public interface ITarget {
+public interface ITarget<TDbEntity> {
+
+    void targetMethod(TDbEntity entity);
 
 }
