@@ -1,8 +1,6 @@
 package ru.urfu.adapter.models;
 
-import ru.urfu.adapter.models.interfaces.IDbEntity;
-
-public class DbUserEntity implements IDbEntity {
+public class DbUserEntity extends TDbEntity {
 
     public int id;
     public String login;

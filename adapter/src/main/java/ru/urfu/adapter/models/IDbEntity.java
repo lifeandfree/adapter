@@ -1,4 +1,4 @@
-package ru.urfu.adapter.models.interfaces;
+package ru.urfu.adapter.models;
 
 public interface IDbEntity {
 

@@ -1,13 +1,14 @@
 package ru.urfu.adapter.secondOrmLibrary;
 
-import java.util.HashSet;
+import java.util.ArrayList;
 
 import ru.urfu.adapter.models.DbUserEntity;
 import ru.urfu.adapter.models.DbUserInfoEntity;
 
 public interface ISecondOrmContext {
 
-    HashSet<DbUserInfoEntity> getUserInfos();
+    ArrayList<DbUserInfoEntity> getUserInfos();
 
-    HashSet<DbUserEntity> getUsers();
+    ArrayList<DbUserEntity> getUsers();
+
 }

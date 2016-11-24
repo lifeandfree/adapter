@@ -2,9 +2,7 @@ package ru.urfu.adapter.models;
 
 import java.sql.Timestamp;
 
-import ru.urfu.adapter.models.interfaces.IDbEntity;
-
-public class DbUserInfoEntity implements IDbEntity {
+public class DbUserInfoEntity extends TDbEntity {
 
     public Timestamp birthday;
     public int id;

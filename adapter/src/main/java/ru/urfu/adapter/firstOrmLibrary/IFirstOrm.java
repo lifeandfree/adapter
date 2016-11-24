@@ -9,4 +9,5 @@ public interface IFirstOrm<TDbEntity> {
     TDbEntity Read(int id);
 
     void Update(TDbEntity entity);
+
 }
